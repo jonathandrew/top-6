@@ -8,6 +8,7 @@ body {
 li {
   list-style-type: none;
   width: 100px;
+  color: #cce6ff;
 }
 
 header {
@@ -18,11 +19,10 @@ header {
 main {
   width: 80%;
   margin: 0 auto;
-  padding: 2%;
-  background-color: #66b3ff;
+  padding: 5%;
+  background-color: lightskyblue;
   display: grid;
   grid-template-columns: 1fr 3fr;
-  box-shadow: 10px 10px #0080ff;
 }
 main ul {
   display: flex;
@@ -77,6 +77,14 @@ main:hover {
 .links li:hover {
   text-decoration: underline;
   color: #fff;
+
 }
+h3{
+  color: #cce6ff;
+  font-family: cursive;
+
+}
+
+
 
 /*# sourceMappingURL=main.css.map */
